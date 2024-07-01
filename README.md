@@ -6,7 +6,7 @@ This project is a Spring Boot RESTful API for managing products. It supports ope
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/product-management-api.git
+    git clone https://github.com/qwufy/practice-api
     cd product-management-api
     ```
 
