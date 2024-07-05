@@ -46,3 +46,22 @@ Tested with "Postman Agent"
 
 ![image](https://github.com/qwufy/practice-api/assets/129245004/08bf0739-9f32-48df-ae4b-7b1854c3cde4)
 
+### Exporting
+
+1. Export to Excel
+    - **URL:** `/api/reports/excel`
+    - **Method:** `GET`
+    - **Roles Allowed:** `ROLE_EDITOR`, `ROLE_VIEWER`
+    - **Description:** Exports product data to an Excel file and prompts the user to download the file.
+   **Example Request:**
+   `http://localhost:8080/api/reports/excel` - and you will get an excel file with the data
+
+2. Export to PDF
+    - **URL:** `/api/reports/pdf`
+    - **Method:** `GET`
+    - **Roles Allowed:** `ROLE_EDITOR`, `ROLE_VIEWER`
+    - **Description:** Exports product data to an PDF file and prompts the user to download the file.
+   **Example Request:**
+   `http://localhost:8080/api/reports/pdf` - and you will get an PDF file with the data
+
+
